@@ -1,0 +1,42 @@
+  .alert-container{
+    border: 1px solid red;
+    overflow: hidden;
+    position:relative;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    width: 100%;
+    height: 1rem;
+ }
+.alert{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 1rem;
+}
+
+@keyframes slideOutRight{
+    0%      {left: 0}
+    100%    {left: 100%}
+}
+
+@keyframes slideOutLeft{
+    0%      {left: 0}
+    100%    {left: -100%}
+}
+
+@keyframes slideInLeft{
+    0%      {left: 100%}
+    100%    {left: 0}
+}
+
+@keyframes slideInRight{
+    0%      {left: -100%}
+    100%    {left: 0%}
+}
+
+ .slide-in-left{ animation: cubic-bezier(0,-0.91,.88,1.54) slideInLeft  1s forwards}
+ .slide-in-right{ animation: cubic-bezier(0,-0.91,.88,1.54) slideInRight   1s forwards}
+ .slide-out-left{ animation: cubic-bezier(0,-0.91,.88,1.54) slideOutLeft  1s  forwards}
+ .slide-out-right{ animation: cubic-bezier(0,-0.91,.88,1.54) slideOutRight  1s forwards}

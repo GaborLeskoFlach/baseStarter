@@ -1,0 +1,48 @@
+{
+  "name": "basetemplatev2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "dev": "webpack-dev-server --no-Info --hot",
+    "build": "webpack",
+    "watch": "webpack -w",
+    "prod": "webpack -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-enzyme": "^0.5.0",
+    "css-loader": "^0.23.1",
+    "enzyme": "^2.4.1",
+    "json-loader": "^0.5.4",
+    "karma": "^1.1.2",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.1.1",
+    "karma-mocha-reporter": "^2.1.0",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-sinon": "^1.0.5",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^3.0.0",
+    "phantomjs-prebuilt": "^2.1.9",
+    "react-addons-test-utils": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-hot-loader": "^1.3.0",
+    "sinon": "^1.17.5",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "mobx": "^2.4.1",
+    "mobx-react": "^3.5.3",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
